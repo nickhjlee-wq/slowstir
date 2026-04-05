@@ -318,12 +318,23 @@ a:hover {
   overflow: hidden;
 }
 
-.atmosphere__placeholder {
+.atmosphere__cocktail {
   width: 100%;
   aspect-ratio: 4 / 5;
   background-color: var(--color-bg-subtle);
   border: 1px solid var(--color-border);
-  /* Replace with background-image or <img> when photography is ready */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.atmosphere__cocktail-svg {
+  width: 100%;
+  max-width: 320px;
+  height: auto;
+  display: block;
+  filter: drop-shadow(0 0 40px rgba(196, 168, 130, 0.06));
 }
 
 .atmosphere__label {
