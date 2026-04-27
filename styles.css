@@ -116,27 +116,27 @@ a:hover {
   max-width: 800px;
 }
 
-.hero__title {
-  font-family: var(--font-serif);
-  font-size: clamp(5rem, 15vw, 12rem);
-  font-weight: 300;
-  line-height: 0.85;
-  letter-spacing: -0.02em;
-  color: var(--color-text);
-  margin-bottom: var(--space-lg);
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
 }
 
-.hero__illustration {
-  margin: var(--space-lg) auto;
-  width: 220px;
-  max-width: 60vw;
+.hero__logo {
+  margin: 0 auto var(--space-lg);
+  width: clamp(320px, 50vw, 520px);
 }
 
-.hero__cocktail-svg {
+.hero__logo-svg {
   width: 100%;
   height: auto;
   display: block;
-  filter: drop-shadow(0 0 60px rgba(196, 168, 130, 0.08));
 }
 
 .hero__divider {
@@ -279,27 +279,17 @@ a:hover {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  min-height: 300px;
-  border: 1px solid var(--color-border);
-  background-color: var(--color-bg-elevated);
+  padding: var(--space-lg) 0;
 }
 
 .brand-placeholder__mark {
-  font-family: var(--font-serif);
-  font-size: clamp(3rem, 8vw, 6rem);
-  font-weight: 300;
-  letter-spacing: 0.5em;
-  color: var(--color-text-dim);
-  margin-bottom: var(--space-sm);
+  width: clamp(200px, 30vw, 340px);
 }
 
-.brand-placeholder__note {
-  font-family: var(--font-sans);
-  font-size: 0.6875rem;
-  font-weight: 400;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  color: var(--color-text-dim);
+.brand-mark-svg {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 /* --- Atmosphere Section --- */

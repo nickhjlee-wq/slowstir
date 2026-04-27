@@ -21,40 +21,22 @@
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero__content">
-      <h1 class="hero__title">Slow<br>Stir</h1>
-      <div class="hero__illustration">
-        <svg viewBox="0 0 400 520" xmlns="http://www.w3.org/2000/svg" class="hero__cocktail-svg">
-          <!-- Mixing glass -->
-          <path d="M145 140 L130 420 C130 440 150 455 200 455 C250 455 270 440 270 420 L255 140" fill="none" stroke="#c4a882" stroke-width="1.2" opacity="0.6"/>
-          <!-- Glass rim highlight -->
-          <ellipse cx="200" cy="140" rx="56" ry="8" fill="none" stroke="#c4a882" stroke-width="1" opacity="0.4"/>
-          <!-- Liquid surface -->
-          <ellipse cx="200" cy="200" rx="48" ry="7" fill="none" stroke="#c4a882" stroke-width="0.6" opacity="0.25"/>
-          <!-- Liquid body -->
-          <path d="M152 200 L138 410 C138 430 155 443 200 443 C245 443 262 430 262 410 L248 200" fill="#c4a882" opacity="0.06"/>
-          <!-- Bar spoon handle — long, elegant, slightly angled -->
-          <line x1="215" y1="28" x2="192" y2="380" stroke="#e8e4df" stroke-width="1.2" opacity="0.5"/>
-          <!-- Spoon twist detail -->
-          <path d="M210 100 Q208 115 212 130 Q210 145 214 160 Q212 175 216 190 Q214 205 218 220 Q216 235 220 250 Q218 265 222 280 Q220 295 218 310" fill="none" stroke="#e8e4df" stroke-width="0.6" opacity="0.25"/>
-          <!-- Spoon bowl -->
-          <ellipse cx="193" cy="385" rx="10" ry="5" fill="none" stroke="#e8e4df" stroke-width="1" opacity="0.4" transform="rotate(-5, 193, 385)"/>
-          <!-- Swirl lines in liquid — motion of stirring -->
-          <path d="M170 300 Q200 290 230 300" fill="none" stroke="#c4a882" stroke-width="0.5" opacity="0.2"/>
-          <path d="M165 330 Q200 320 235 330" fill="none" stroke="#c4a882" stroke-width="0.5" opacity="0.15"/>
-          <path d="M160 360 Q200 348 240 360" fill="none" stroke="#c4a882" stroke-width="0.5" opacity="0.12"/>
-          <!-- Ice cube suggestion -->
-          <rect x="178" y="240" width="22" height="20" rx="3" fill="none" stroke="#e8e4df" stroke-width="0.6" opacity="0.15" transform="rotate(8, 189, 250)"/>
-          <rect x="202" y="260" width="20" height="18" rx="3" fill="none" stroke="#e8e4df" stroke-width="0.6" opacity="0.12" transform="rotate(-5, 212, 269)"/>
-          <!-- Condensation droplets -->
-          <circle cx="260" cy="250" r="1.5" fill="#c4a882" opacity="0.1"/>
-          <circle cx="265" cy="300" r="1" fill="#c4a882" opacity="0.08"/>
-          <circle cx="258" cy="350" r="1.2" fill="#c4a882" opacity="0.1"/>
-          <!-- Gentle glow behind glass -->
-          <radialGradient id="glassGlow">
-            <stop offset="0%" stop-color="#c4a882" stop-opacity="0.04"/>
-            <stop offset="100%" stop-color="#c4a882" stop-opacity="0"/>
-          </radialGradient>
-          <ellipse cx="200" cy="300" rx="120" ry="180" fill="url(#glassGlow)"/>
+      <h1 class="hero__title sr-only">Slow Stir</h1>
+      <div class="hero__logo">
+        <svg viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg" class="hero__logo-svg" aria-label="Slow Stir logo">
+          <!-- Golden ratio spiral circles -->
+          <circle cx="300" cy="175" r="168" fill="none" stroke="#e8e4df" stroke-width="1.3"/>
+          <circle cx="182" cy="285" r="104" fill="none" stroke="#e8e4df" stroke-width="1.3"/>
+          <circle cx="248" cy="185" r="64" fill="none" stroke="#e8e4df" stroke-width="1.3"/>
+          <circle cx="200" cy="252" r="40" fill="none" stroke="#e8e4df" stroke-width="1.3"/>
+          <circle cx="224" cy="222" r="12" fill="none" stroke="#e8e4df" stroke-width="1.2"/>
+          <!-- Grid lines -->
+          <line x1="72" y1="268" x2="468" y2="268" stroke="#e8e4df" stroke-width="1.2"/>
+          <line x1="208" y1="7" x2="208" y2="420" stroke="#e8e4df" stroke-width="1.2"/>
+          <!-- Wordmark: slow stir -->
+          <text x="250" y="520" text-anchor="middle" font-family="'Cormorant Garamond', Georgia, serif" font-size="76" font-weight="300" fill="#e8e4df" letter-spacing="6">slow stir</text>
+          <!-- Star accent -->
+          <path d="M448 510 L451 498 L454 510 L466 507 L454 510 L451 522 L448 510 L436 507 Z" fill="#8a8580" opacity="0.7"/>
         </svg>
       </div>
       <div class="hero__divider"></div>
@@ -123,17 +105,21 @@
     </div>
   </section>
 
-  <!-- Visual Break / Brand Placeholder -->
+  <!-- Brand Mark Section -->
   <section class="brand-placeholder">
     <div class="container">
       <div class="brand-placeholder__inner">
-        <!--
-          LOGO PLACEHOLDER
-          Replace this block with <img src="logo.svg" alt="Slow Stir" class="brand-placeholder__logo">
-          once the final logo is ready.
-        -->
-        <div class="brand-placeholder__mark">S S</div>
-        <p class="brand-placeholder__note">Brand identity in development</p>
+        <div class="brand-placeholder__mark">
+          <svg viewBox="60 0 400 430" xmlns="http://www.w3.org/2000/svg" class="brand-mark-svg" aria-label="Slow Stir mark">
+            <circle cx="300" cy="175" r="168" fill="none" stroke="#e8e4df" stroke-width="1" opacity="0.3"/>
+            <circle cx="182" cy="285" r="104" fill="none" stroke="#e8e4df" stroke-width="1" opacity="0.3"/>
+            <circle cx="248" cy="185" r="64" fill="none" stroke="#e8e4df" stroke-width="1" opacity="0.3"/>
+            <circle cx="200" cy="252" r="40" fill="none" stroke="#e8e4df" stroke-width="1" opacity="0.3"/>
+            <circle cx="224" cy="222" r="12" fill="none" stroke="#e8e4df" stroke-width="1" opacity="0.3"/>
+            <line x1="72" y1="268" x2="468" y2="268" stroke="#e8e4df" stroke-width="1" opacity="0.2"/>
+            <line x1="208" y1="7" x2="208" y2="420" stroke="#e8e4df" stroke-width="1" opacity="0.2"/>
+          </svg>
+        </div>
       </div>
     </div>
   </section>
